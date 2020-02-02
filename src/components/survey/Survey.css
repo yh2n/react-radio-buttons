@@ -1,0 +1,22 @@
+.survey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border: solid;
+    height: 300px;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.survey-questions {
+    flex-direction: column;
+    padding: 15px;
+    border: dashed;
+    display: flex;
+}
+.question {
+    display: grid;
+    grid-template-columns: 9fr repeat(4, 1fr);
+    margin-bottom: 15px;
+}
